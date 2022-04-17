@@ -32,7 +32,7 @@ public class OrderedWarehouse extends WarehouseImpl{
 
 	public Set<Product> allProducts() {
 		// TODO Auto-generated method stub
-		return this.l;
+		return new TreeSet<>(this.l);
 	}
 
 
